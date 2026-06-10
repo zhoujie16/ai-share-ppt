@@ -321,7 +321,7 @@ const extraCss = `
 `;
 
 let html = template
-  .replace('<title>[必填] 替换为 PPT 标题 · Deck Title</title>', '<title>Codex App 的功能用法</title>')
+  .replace('<title>[必填] 替换为 PPT 标题 · Deck Title</title>', '<title>Codex App 的实践分享</title>')
   .replace('</style>', `${extraCss}\n</style>`);
 
 const deckStart = html.indexOf('<div id="deck">');
