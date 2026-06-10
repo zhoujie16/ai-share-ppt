@@ -129,7 +129,7 @@ function intro(row, introIndex) {
           </div>`).join('');
 
   return `
-<section class="slide split ${introIndex % 3 === 1 ? 'dark' : 'light'}" data-layout="${layout}" data-animate="split-statement">
+<section class="slide split light" data-layout="${layout}" data-animate="split-statement">
   <div class="canvas-card">
     <div class="split-half">
       <div class="half ${introIndex % 3 === 1 ? 'b-ink' : 'b-accent'}" style="justify-content:space-between;position:relative;overflow:hidden">
@@ -142,11 +142,7 @@ function intro(row, introIndex) {
         </div>
         <div class="t-meta" style="opacity:.62;border-top:1px solid currentColor;padding-top:2vh">FOCUS BEFORE DEMO</div>
       </div>
-      <div class="half r-border" style="justify-content:center;gap:3vh">
-        <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-          <div class="t-meta">观众应该关注什么</div>
-          <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:min(3.2vw,5.8vh);line-height:1.15;letter-spacing:-.018em">先看结构，再看执行证据</h3>
-        </div>
+      <div class="half r-border" style="justify-content:center;gap:3vh;background:var(--paper);color:var(--ink)">
         <div data-anim="grid" class="intro-points">
 ${pointHtml}
         </div>
