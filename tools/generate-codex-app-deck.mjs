@@ -208,8 +208,8 @@ function codexVsCursor(row) {
 ${rowsHtml}
     </div>
     <div data-anim="bottom" class="compare-conclusion">
-      <span>Cursor 更像“增强版 IDE”</span>
       <span>Codex App 更像“能推进任务的 AI 协作者”</span>
+      <span>Cursor 更像“增强版 IDE”</span>
     </div>
   </div>
   ${speakerNotes(row)}
@@ -308,7 +308,7 @@ const extraCss = `
   .compare-cell{font-family:var(--sans),var(--sans-zh);font-size:max(16px,.98vw);font-weight:400;line-height:1.36;color:var(--text-primary);padding:var(--sp-4) var(--sp-5);border-top:1px solid var(--border-subtle)}
   .compare-cell.accent-cell{color:var(--accent);font-weight:500}
   .compare-conclusion{margin-top:var(--sp-4);display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-5);border-top:1px solid var(--border-subtle);padding-top:var(--sp-4);font-family:var(--sans),var(--sans-zh);font-size:max(17px,1.15vw);line-height:1.3;letter-spacing:-.01em}
-  .compare-conclusion span:last-child{color:var(--accent);font-weight:500}
+  .compare-conclusion span:first-child{color:var(--accent);font-weight:500}
   .slide.media-only{padding:0!important;background:#0a0a0a;color:#fff}
   .slide.media-only .media-stage{width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;background:#0a0a0a}
   .slide.media-only img,.slide.media-only video{width:100%;height:100%;object-fit:contain;object-position:center center;display:block;background:#0a0a0a}
